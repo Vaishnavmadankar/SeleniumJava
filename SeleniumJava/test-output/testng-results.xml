@@ -1,17 +1,35 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<testng-results ignored="0" total="1" passed="1" failed="0" skipped="0">
+<testng-results ignored="0" total="4" passed="4" failed="0" skipped="0">
   <reporter-output>
   </reporter-output>
-  <suite started-at="2023-04-07T12:29:39 IST" name="Default suite" finished-at="2023-04-07T12:29:51 IST" duration-ms="11561">
+  <suite started-at="2023-04-07T23:16:55 IST" name="Suite" finished-at="2023-04-07T23:17:32 IST" duration-ms="36868">
     <groups>
     </groups>
-    <test started-at="2023-04-07T12:29:39 IST" name="Default test" finished-at="2023-04-07T12:29:51 IST" duration-ms="11561">
+    <test started-at="2023-04-07T23:16:55 IST" name="Test" finished-at="2023-04-07T23:17:32 IST" duration-ms="36868">
+      <class name="SeleniumJavaProject.SeleniumJava.Browserlaunch">
+        <test-method signature="handlebrowser()[pri:0, instance:SeleniumJavaProject.SeleniumJava.Browserlaunch@6ca8564a]" started-at="2023-04-07T23:16:55 IST" name="handlebrowser" finished-at="2023-04-07T23:17:03 IST" duration-ms="7564" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- handlebrowser -->
+      </class> <!-- SeleniumJavaProject.SeleniumJava.Browserlaunch -->
+      <class name="SeleniumJavaProject.SeleniumJava.fbsignup">
+        <test-method signature="signuppage()[pri:0, instance:SeleniumJavaProject.SeleniumJava.fbsignup@15eb5ee5]" started-at="2023-04-07T23:17:08 IST" name="signuppage" finished-at="2023-04-07T23:17:20 IST" duration-ms="12348" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- signuppage -->
+      </class> <!-- SeleniumJavaProject.SeleniumJava.fbsignup -->
+      <class name="SeleniumJavaProject.SeleniumJava.UserPassword">
+        <test-method signature="Useridnandpassword()[pri:0, instance:SeleniumJavaProject.SeleniumJava.UserPassword@4f209819]" started-at="2023-04-07T23:17:03 IST" name="Useridnandpassword" finished-at="2023-04-07T23:17:08 IST" duration-ms="4798" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- Useridnandpassword -->
+      </class> <!-- SeleniumJavaProject.SeleniumJava.UserPassword -->
       <class name="SeleniumJavaProject.SeleniumJava.createnewaccount">
-        <test-method signature="newaccount()[pri:0, instance:SeleniumJavaProject.SeleniumJava.createnewaccount@1139b2f3]" started-at="2023-04-07T12:29:39 IST" name="newaccount" finished-at="2023-04-07T12:29:51 IST" duration-ms="11495" status="PASS">
+        <test-method signature="newaccount()[pri:0, instance:SeleniumJavaProject.SeleniumJava.createnewaccount@2145b572]" started-at="2023-04-07T23:17:20 IST" name="newaccount" finished-at="2023-04-07T23:17:32 IST" duration-ms="12086" status="PASS">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- newaccount -->
       </class> <!-- SeleniumJavaProject.SeleniumJava.createnewaccount -->
-    </test> <!-- Default test -->
-  </suite> <!-- Default suite -->
+    </test> <!-- Test -->
+  </suite> <!-- Suite -->
 </testng-results>

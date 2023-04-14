@@ -3,16 +3,11 @@
 <suite name="Failed suite [Suite]" guice-stage="DEVELOPMENT">
   <test thread-count="5" name="Test(failed)">
     <classes>
-      <class name="SeleniumJavaProject.SeleniumJava.UserPassword">
+      <class name="SeleniumJavaProject.SeleniumJava.createnewaccount">
         <methods>
-          <include name="Useridnandpassword"/>
+          <include name="newaccount"/>
         </methods>
-      </class> <!-- SeleniumJavaProject.SeleniumJava.UserPassword -->
-      <class name="SeleniumJavaProject.SeleniumJava.Browserlaunch">
-        <methods>
-          <include name="handlebrowser"/>
-        </methods>
-      </class> <!-- SeleniumJavaProject.SeleniumJava.Browserlaunch -->
+      </class> <!-- SeleniumJavaProject.SeleniumJava.createnewaccount -->
     </classes>
   </test> <!-- Test(failed) -->
 </suite> <!-- Failed suite [Suite] -->
