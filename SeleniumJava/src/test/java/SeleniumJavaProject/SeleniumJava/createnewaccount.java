@@ -12,7 +12,7 @@ public class createnewaccount
 	@Test
   public void newaccount() throws InterruptedException 
   {
-	System.setProperty("webdriver.chrome.driver", "C:\\Users\\madan\\Downloads\\chromedriver_111version\\chromedriver.exe");
+	System.setProperty("webdriver.chrome.driver", "C:\\Users\\\\madan\\\\Downloads\\\\chromedriver_119Version\\\\chromedriver-win64\\\\chromedriver.exe");
 	ChromeDriver driver=new ChromeDriver(); 
 	  driver.get("http:facebook.com");
 	  Options op=driver.manage();
@@ -32,8 +32,6 @@ public class createnewaccount
 	  Reenteremailaddress.sendKeys("abc@fb.com");
 	  WebElement Newpassword=driver.findElement(By.name("reg_passwd__"));
 	  Newpassword.sendKeys("fb@123456");
-	  
-	  
-	  
+  
   }
 }
