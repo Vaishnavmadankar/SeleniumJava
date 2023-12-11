@@ -12,13 +12,14 @@ public class createnewaccount
 	@Test
   public void newaccount() throws InterruptedException 
   {
-	System.setProperty("webdriver.chrome.driver", "C:\\Users\\\\madan\\\\Downloads\\\\chromedriver_119Version\\\\chromedriver-win64\\\\chromedriver.exe");
-	ChromeDriver driver=new ChromeDriver(); 
+	  System.setProperty("webdriver.chrome.driver", "C:\\Users\\\\madan\\\\Downloads\\\\chromedriver_119Version\\\\chromedriver-win64\\\\chromedriver.exe");
+	  ChromeDriver driver=new ChromeDriver(); 
 	  driver.get("http:facebook.com");
 	  Options op=driver.manage();
 	  Window w=op.window();
 	  w.maximize();
 	  
+	
 	  WebElement button=driver.findElement(By.cssSelector("a[data-testid='open-registration-form-button']"));
 	  button.click();
 	  Thread.sleep(5000);
